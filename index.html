@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Grocery List</title>
+  </head>
+    <body>
+      <div class="container">
+        <div id="main">
+          <h1>WHAT GROCERIES DO YOU NEED</h1>
+          <p>Let us alphabetize your list</p>
+          <div id="blanks">
+            <form id="grocery">
+              <div class="form-group">
+                <input id="item1" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <input id="item2" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <input id="item3" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <input id="item4" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <input id="item5" class="form-control" type="text">
+              </div>
+              <button type="submit" class="btn">Alphabetize!</button>
+            </form>
+          </div>
+          </div>
+          <div id="result">
+            <p> Your ordered list: </p>
+            <ul id="itemList"></ul>
+          </div>
+
+        </div>
+    </body>
+</html>
